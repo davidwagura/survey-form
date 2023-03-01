@@ -1,0 +1,39 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <body>
+    <div class="h1">
+      <h1><u>Employee Intrests Survey Form</u></h1>
+    </div>
+  	<div class="form">
+  	  <form>
+        First name:<input type="text" name="First_name" /><br>
+        Last name<input type="text" name="Last_name" /><br>
+        Gender:<input type="radio" name="gender" value = "on"> male
+        <input type="radio" name="gender" value = "on"> female<br />
+        User ID :<input type = "text" name = "User_id" /><br><br />
+        <h3><b>your age:</b></h3>
+        <select name = "dropdown">
+          <option value="number" selected>20-30</option><br />
+          <option value="number">40-50</option>
+          <option value="number">50-60</option>
+          <option value="number">60-70</option>
+          <option value="number">70-80</option>
+        </select><br />
+         Tell us more about your self:
+        <textarea rows = "5" cols ="50" name = "description">Enter description here...</textarea> <br />
+        Do you exercise at home?:<br /><input type = "radio" name = "answer" value = "on"> yes
+        <input type = "radio" name = "answer" value = "on"> no<br />
+        <b>How do you like to read about your favourite topics</b> <br /> 
+        <input type="checkbox" name="source" value="on">Books
+        <input type="checkbox" name="source" value="on">Online source
+        <input type="checkbox" name="source" value="on">Phone apps
+        <input type="checkbox" name="source" value="on">Magazines<br />
+        <input type ="submit" name ="submit" value ="Submit"/>
+      </form>
+    </div>    
+  </body>
+</html>
